@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Roster</title>
+  </head>
+
+  <body>
+    <h1> Team Names </h1>
+
+    <ul>
+      <% teams.keys.each do |teams| %>
+        <li> <a href="/roster/<%= teams %>"> <%= teams %> </a> </li>
+      <% end %>
+    </ul>
+
+  
+  </body>
+</html> 
